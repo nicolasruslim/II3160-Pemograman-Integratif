@@ -1,3 +1,8 @@
+//Dibuat oleh:
+//Gunawan 18211007
+//Nurafni Eka Agustina 18211012
+//Nicolas Novian Ruslim/18211031
+
 <?php
 
 $input    = 'makanan.csv';
