@@ -4,47 +4,8 @@
 //Nicolas Novian Ruslim/18211031
 
 <?php
-
-$input    = 'makanan.csv';
-$output   = 'menu.xml';
-
-//Membuka file csv
-$fileInput  = fopen($input, 'rt');
-
-//Mengambil header dari file csv 
-$headers = fgetcsv($fileInput);
-
-//Membuat objek DOM
-$doc  = new DomDocument();
-$doc->formatOutput = true;
-
-//Menambahkan root pada file xml
-$root = $doc->createElement('daftar_makanan');
-$root = $doc->appendChild($root);
-
-//Melakukan pengulangan untuk membentuk child dan subchild pada file xml
-while (($row = fgetcsv($fileInput)) !== FALSE)
-{
- //membuat elemen child 'makanan'
- $container = $doc->createElement('makanan');
- foreach ($headers as $i => $header)
- {
-  //membuat elemen subchild 
-  $child = $doc->createElement($header);
-  $child = $container->appendChild($child);
-     $value = $doc->createTextNode($row[$i]);
-     $value = $child->appendChild($value);
- }
-
- $root->appendChild($container);
-}
-
-//menyimpan hasil konversi XML ke file output
-$strxml = $doc->saveXML();
-$handle = fopen($output, "w");
-fwrite($handle, $strxml);
-fclose($handle);
-
+	$_GET['jenis']='makanan';
+	include 'converter.php';
 	$daftarmakanan = simplexml_load_file("menu.xml");
     $totalharga=0;
 	//memeriksa apakah checkbox dipilih atau tidak
@@ -66,3 +27,4 @@ fclose($handle);
 	//menampilkan total harga yang harus dibayar
     echo "Total Harga = ".$totalharga;
 ?>
+`
