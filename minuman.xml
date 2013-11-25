@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<daftar_minuman>
+  <minuman>
+    <nama>Jus jeruk</nama>
+    <harga>8000</harga>
+  </minuman>
+  <minuman>
+    <nama>Jus tomat</nama>
+    <harga>7000</harga>
+  </minuman>
+  <minuman>
+    <nama>Jus mangga</nama>
+    <harga>9000</harga>
+  </minuman>
+  <minuman>
+    <nama>Jus melon</nama>
+    <harga>9000</harga>
+  </minuman>
+  <minuman>
+    <nama>teh manis</nama>
+    <harga> 4000</harga>
+  </minuman>
+  <minuman>
+    <nama>air mineral</nama>
+    <harga> 4000</harga>
+  </minuman>
+  <minuman>
+    <nama>Soft drink</nama>
+    <harga> 4000</harga>
+  </minuman>
+</daftar_minuman>

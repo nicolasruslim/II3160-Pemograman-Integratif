@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<daftar_makanan>
+  <makanan>
+    <nama>Nasi Putih</nama>
+    <harga>5000</harga>
+  </makanan>
+  <makanan>
+    <nama>Ayam Goreng</nama>
+    <harga>8000</harga>
+  </makanan>
+  <makanan>
+    <nama>Ikan Bakar</nama>
+    <harga>30000</harga>
+  </makanan>
+  <makanan>
+    <nama>Udang Bakar</nama>
+    <harga>50000</harga>
+  </makanan>
+  <makanan>
+    <nama>Tahu</nama>
+    <harga>10000</harga>
+  </makanan>
+  <makanan>
+    <nama>Tempe</nama>
+    <harga>10000</harga>
+  </makanan>
+  <makanan>
+    <nama>Soto Ayam</nama>
+    <harga>20000</harga>
+  </makanan>
+  <makanan>
+    <nama>Telur</nama>
+    <harga>4000</harga>
+  </makanan>
+</daftar_makanan>
