@@ -3,7 +3,9 @@ Petunjuk Penggunaan Service
 Service yang kami sediakan adalah menampilkan hasil konversi dari file berformat CSV menjadi XML.
 Cara menggunakan service ini sebagai berikut :
 1.Menampilkan data makanan
-  http://localhost/PROGIN/progin-itb/II3160-Pemograman-Integratif/show.php?data=makanan.xml
+  http://.../II3160-Pemograman-Integratif/show.php?data=makanan.xml
 
 2.Menampilka data minuman
-  http://localhost/PROGIN/progin-itb/II3160-Pemograman-Integratif/show.php?data=minuman.xml
+  http://.../II3160-Pemograman-Integratif/show.php?data=minuman.xml
+
+... di atas diisi dengan alamat penyimpanan file kami
