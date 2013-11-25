@@ -1,0 +1,14 @@
+Tugas 3
+Gunawan 18211007
+Nurafni Eka Agustina 18211012
+Nicolas Novian Ruslim 18211031
+
+Tugas 3 hasil pekerjaan kami terdapat pada file PROGIN.zip yang terdiri atas :
+- folder progin-itb : berisi service dari teman-teman yang terakhir kali kami update
+- showTable.php : berfungsi untuk mengubah file dari format xml menjadi ditampilkan dalam format tabel
+- index.html : sebagai layar awal yang menampilkan tombol-tombol untuk mengakses data dari service teman-teman
+- bootstrap.css : sebagai pengatur tampilan dari halaman utama pada index.html
+
+
+Untuk mengakses tugas 3 yang telah kami kerjakan agar mudah dilihat hasilnya cukup di extract file PROGIN.zip pada folder htdocs.
+Tujuannya agar pengalamatannya tidak berubah.
